@@ -1,59 +1,73 @@
-## Introduction
+In JavaScript, conditional statements are used to make decisions in your code based on certain criteria. These conditions are checked to see if they are true or false, and the code is then executed based on these choices. There are three main types of conditional statements in JavaScript: `if`, `if-else`, `if-else if-else`.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
-
-### What you will make
-
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
++ if statement: this is used to execute a block of code if a specified condition is checked to be true.
+    
+--- code ---
 ---
-title: What you will need
+language: js
+filename: script.js
+line_numbers: true
 ---
-### Hardware
+    if (condition) {
+        // Code to be executed if the condition is true
+    }
+    
+--- /code ---
 
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
++ if-else statement: this is an extension of the if statement. It allows you to set an alternative block of code to be executed if the initial condition is false.
+    
+--- code ---
 ---
-title: What you will learn
+language: js
+filename: script.js
+line_numbers: true
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+    if (condition) {
+      // Code to be executed if the condition is true
+    } else {
+    // Code to be executed if the condition is false
+    }
+    
+--- /code ---
 
---- /collapse ---
++ if-else if-else statement: this is used when you have multiple conditions to check. It allows you to execute different blocks of code based on the checks.
+    
 
---- collapse ---
+--- code ---
 ---
-title: Additional information for educators
+language: js
+filename: script.js
+line_numbers: true
 ---
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
+  if (condition1) {
+    // Code to be executed if condition1 is true
+  } else if (condition2) {
+    // Code to be executed if condition2 is true
+  } else {
+    // Code to be executed if none of the conditions is true
+  }
+    
+--- /code ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
++ How to write a conditional statement:
+  + The keyword if starts the conditional statement.
+  + Inside brackets (), you place the condition that you want to check.
+  + If the condition is true, the code inside the curly braces {} is executed.
 
---- /collapse ---
+--- code ---
+---
+language: js
+filename: script.js
+line_numbers: true
+---
+
+  var age = 18;
+
+  if (age >= 18) {
+    console.log("You are an adult.");
+}
+--- /code ---
+
+
