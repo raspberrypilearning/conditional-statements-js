@@ -1,72 +1,82 @@
-In JavaScript, conditional statements are used to make decisions in your code based on certain criteria. These conditions are checked to see if they are true or false, and the code is then executed based on these choices. There are three main types of conditional statements in JavaScript: `if`, `if-else`, `if-else if-else`.
+In JavaScript, conditional statements are used to make decisions in your code based on conditions. Conditions are checked to see if they are true and code is executed based on the result of the checks.
 
-+ if statement: this is used to execute a block of code if a specified condition is checked to be true.
+There are three types of conditional statements in JavaScript: 
+`if`, `else if`, `else`.
+
+### if
+
+`if` is used to execute a block of code *if* a specified condition is met (true).
     
 --- code ---
 ---
 language: js
-filename: script.js
+filename: 
 line_numbers: true
 ---
-    if (condition) {
-        // Code to be executed if the condition is true
-    }
+if (condition) {
+  // Code to be executed if the condition is true
+}
     
 --- /code ---
 
-+ if-else statement: this is an extension of the if statement. It allows you to set an alternative block of code to be executed if the initial condition is false.
-    
---- code ---
----
-language: js
-filename: script.js
-line_numbers: true
----
+### else if
 
-    if (condition) {
-      // Code to be executed if the condition is true
-    } else {
-    // Code to be executed if the condition is false
-    }
-    
---- /code ---
-
-+ if-else if-else statement: this is used when you have multiple conditions to check. It allows you to execute different blocks of code based on the checks.
-    
+`else if` is used to check multiple conditions. Runs different blocks of code based on the result of the checks. 
+ 
+When an `else if` condition is met, no checks are made on subsequent `else if` (or `else`) blocks.
 
 --- code ---
 ---
 language: js
-filename: script.js
+filename: 
 line_numbers: true
 ---
 
-  if (condition1) {
-    // Code to be executed if condition1 is true
-  } else if (condition2) {
-    // Code to be executed if condition2 is true
-  } else {
-    // Code to be executed if none of the conditions is true
-  }
+if (condition1) {
+  // Code to be executed if condition1 is true
+} else if (condition2) {
+  // Code to be executed if condition2 is true
+}
     
 --- /code ---
 
-+ How to write a conditional statement:
-  + The keyword if starts the conditional statement.
+### else
+
+`else` sets an alternative block of code to be executed if prevous (`if` and/or `else if`) conditions are not met (false).
+    
+--- code ---
+---
+language: js
+filename: 
+line_numbers: true
+---
+
+if (condition1) {
+  // Code to be executed if condition1 is true
+} else if (condition2) {
+  // Code to be executed if condition2 is true
+} else {
+  // Code to be executed if none of the conditions is true
+}
+    
+--- /code ---
+
+### How to write a conditional statement
+  + The keyword `if` starts the conditional statement.
   + Inside brackets (), you place the condition that you want to check.
   + If the condition is true, the code inside the curly braces {} is executed.
 
 --- code ---
 ---
 language: js
-filename: script.js
+filename: 
 line_numbers: true
 ---
 
-  var age = 18;
+var age = 18;
 
-  if (age >= 18) {
-    console.log("You are an adult.");
+if (age >= 18) {
+  console.log("You are an adult.");
 }
 --- /code ---
 
