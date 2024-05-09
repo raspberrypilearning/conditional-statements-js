@@ -42,7 +42,7 @@ if (condition1) {
 
 ### else
 
-`else` sets an alternative block of code to be executed if prevous (`if` and/or `else if`) conditions are not met (false).
+`else` sets an alternative block of code that is executed if the previous (`if` and/or `else if`) conditions are not met (false).
     
 --- code ---
 ---
@@ -62,9 +62,9 @@ if (condition1) {
 --- /code ---
 
 ### How to write a conditional statement
-  + The keyword `if` starts the conditional statement
-  + You place the condition that you want to check inside brackets `()`
-  + The code inside the curly braces `{}` is executed if the condition is true 
+  + Use the keyword `if` to start the conditional statement
+  + Place the condition that you want to check inside brackets `()`
+  + Add code inside the curly braces `{}` that will execute if the condition is true 
 
 --- code ---
 ---
