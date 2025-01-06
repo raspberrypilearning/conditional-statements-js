@@ -5,7 +5,7 @@ There are three types of conditional statements in JavaScript:
 
 ### if
 
-`if` is used to execute a block of code _if_ a specified condition is met (true).
+`if` is used to execute a block of code **if** a specified condition is met (true).
 
 ## --- code ---
 
@@ -22,7 +22,7 @@ if (condition) {
 
 ### else if
 
-`else if` is used to check multiple conditions. Runs different blocks of code based on the result of the checks.
+`else if` is used to check multiple conditions. It runs different blocks of code based on the results of the checks.
 
 When an `else if` condition is met, no checks are made on subsequent `else if` (or `else`) blocks.
 
@@ -43,7 +43,7 @@ if (condition1) {
 
 ### else
 
-`else` sets an alternative block of code to be executed if prevous (`if` and/or `else if`) conditions are not met (false).
+`else` sets an alternative block of code that is executed if the previous (`if` and/or `else if`) conditions are not met (false).
 
 ## --- code ---
 
@@ -57,16 +57,16 @@ if (condition1) {
 } else if (condition2) {
 // Code to be executed if condition2 is true
 } else {
-// Code to be executed if none of the conditions is true
+// Code to be executed if none of the conditions are true
 }
 
 \--- /code ---
 
 ### How to write a conditional statement
 
-- The keyword `if` starts the conditional statement.
-- Inside brackets (), you place the condition that you want to check.
-- If the condition is true, the code inside the curly braces {} is executed.
+- Use the keyword `if` to start the conditional statement
+- Place the condition that you want to check inside brackets `()`
+- Add code inside the curly braces `{}` that will execute if the condition is true
 
 ## --- code ---
 
@@ -80,4 +80,5 @@ var age = 18;
 if (age >= 18) {
 console.log("You are an adult.");
 }
+
 \--- /code ---
