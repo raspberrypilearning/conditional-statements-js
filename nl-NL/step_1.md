@@ -1,11 +1,11 @@
-In JavaScript, conditional statements are used to make decisions in your code based on conditions. Conditions are checked to see if they are true and code is executed based on the result of the checks.
+In JavaScript worden voorwaardelijke statements gebruikt om beslissingen in jouw code te nemen op basis van voorwaarden. Er wordt gecontroleerd of de voorwaarden waar zijn, op basis van de uitkomst van de controles wordt de code uitgevoerd.
 
-There are three types of conditional statements in JavaScript:
+Er zijn drie typen voorwaardelijke statements in JavaScript:
 `if`, `else if`, `else`.
 
 ### if
 
-`if` is used to execute a block of code **if** a specified condition is met (true).
+`if` wordt gebruikt om een codeblok uit te voeren **als** aan een opgegeven voorwaarde is voldaan (true).
 
 ## --- code ---
 
@@ -14,17 +14,17 @@ filename:
 line_numbers: true
 -------------------------------------------------------
 
-if (condition) {
-// Code to be executed if the condition is true
+if (voorwaarde) {
+// Code die moet worden uitgevoerd als de voorwaarde waar is
 }
 
 \--- /code ---
 
 ### else if
 
-`else if` is used to check multiple conditions. It runs different blocks of code based on the results of the checks.
+`else if` wordt gebruikt om meerdere voorwaarden te controleren. Het voert verschillende codeblokken uit op basis van de resultaten van de controles.
 
-When an `else if` condition is met, no checks are made on subsequent `else if` (or `else`) blocks.
+Wanneer aan een `else if`-voorwaarde is voldaan, worden er geen controles meer uitgevoerd op daaropvolgende `else if`- (of `else`-) blokken.
 
 ## --- code ---
 
@@ -33,17 +33,17 @@ filename:
 line_numbers: true
 -------------------------------------------------------
 
-if (condition1) {
-// Code to be executed if condition1 is true
-} else if (condition2) {
-// Code to be executed if condition2 is true
+if (voorwaarde1) {
+// Code die moet worden uitgevoerd als voorwaarde1 waar is
+} else if (voorwaarde2) {
+// Code die moet worden uitgevoerd als voorwaarde2 waar is
 }
 
 \--- /code ---
 
 ### else
 
-`else` sets an alternative block of code that is executed if the previous (`if` and/or `else if`) conditions are not met (false).
+`else` stelt een alternatief codeblok in dat wordt uitgevoerd als aan de voorgaande (`if` en/of `else if`) voorwaarden niet wordt voldaan (false).
 
 ## --- code ---
 
@@ -52,21 +52,21 @@ filename:
 line_numbers: true
 -------------------------------------------------------
 
-if (condition1) {
-// Code to be executed if condition1 is true
-} else if (condition2) {
-// Code to be executed if condition2 is true
+if (voorwaarde1) {
+// Code die moet worden uitgevoerd als voorwaarde1 waar is
+} else if (voorwaarde2) {
+// Code die moet worden uitgevoerd als voorwaarde2 waar is
 } else {
-// Code to be executed if none of the conditions are true
+// Code die moet worden uitgevoerd als geen van de voorwaarden waar is
 }
 
 \--- /code ---
 
-### How to write a conditional statement
+### Hoe schrijf je een voorwaardelijk statement
 
-- Use the keyword `if` to start the conditional statement
-- Place the condition that you want to check inside brackets `()`
-- Add code inside the curly braces `{}` that will execute if the condition is true
+- Gebruik het trefwoord `if` om de voorwaardelijke instructie te starten
+- Plaats de voorwaarde die je wilt controleren tussen haakjes `()`
+- Voeg code die wordt uitgevoerd als de voorwaarde waar is tussen de accolades `{}`
 
 ## --- code ---
 
@@ -78,7 +78,9 @@ line_numbers: true
 var age = 18;
 
 if (age >= 18) {
-console.log("You are an adult.");
+console.log("Je bent volwassen.");
 }
 
 \--- /code ---
+
+
