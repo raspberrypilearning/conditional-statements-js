@@ -1,11 +1,11 @@
-In JavaScript, conditional statements are used to make decisions in your code based on conditions. Conditions are checked to see if they are true and code is executed based on the result of the checks.
+En JavaScript, les instructions conditionnelles sont utilisées dans ton code pour prendre des décisions en fonction de certaines conditions. Les conditions sont vérifiées pour voir si elles sont vraies et le code est exécuté en fonction du résultat de ces vérifications.
 
-There are three types of conditional statements in JavaScript:
+Il existe trois types d'instructions conditionnelles en JavaScript :
 `if`, `else if`, `else`.
 
 ### if
 
-`if` is used to execute a block of code **if** a specified condition is met (true).
+`if` est utilisé pour exécuter un bloc de code **si** (if) une condition spécifiée est remplie (vraie).
 
 ## --- code ---
 
@@ -15,16 +15,16 @@ line_numbers: true
 -------------------------------------------------------
 
 if (condition) {
-// Code to be executed if the condition is true
+// Code à exécuter si la condition est vraie
 }
 
 \--- /code ---
 
 ### else if
 
-`else if` is used to check multiple conditions. It runs different blocks of code based on the results of the checks.
+`else if` est utilisé pour vérifier plusieurs conditions. Différents blocs de code sont exécutés en fonction des résultats de ces vérifications.
 
-When an `else if` condition is met, no checks are made on subsequent `else if` (or `else`) blocks.
+Lorsqu'une condition `else si` est remplie, aucune vérification n'est faite sur les blocs `else if` (ou `else`) suivants.
 
 ## --- code ---
 
@@ -34,16 +34,16 @@ line_numbers: true
 -------------------------------------------------------
 
 if (condition1) {
-// Code to be executed if condition1 is true
+// Code à exécuter si la condition1 est vraie
 } else if (condition2) {
-// Code to be executed if condition2 is true
+// Code à exécuter si la condition2 est vraie
 }
 
 \--- /code ---
 
 ### else
 
-`else` sets an alternative block of code that is executed if the previous (`if` and/or `else if`) conditions are not met (false).
+`else` définit un bloc de code alternatif qui est exécuté si les conditions précédentes (`if` et/ou `else if`) ne sont pas remplies (false).
 
 ## --- code ---
 
@@ -53,20 +53,20 @@ line_numbers: true
 -------------------------------------------------------
 
 if (condition1) {
-// Code to be executed if condition1 is true
+// Code à exécuter si la condition1 est vraie
 } else if (condition2) {
-// Code to be executed if condition2 is true
+// Code à exécuter si la condition2 est vraie
 } else {
-// Code to be executed if none of the conditions are true
+// Code à exécuter si aucune des conditions n'est vraie
 }
 
 \--- /code ---
 
-### How to write a conditional statement
+### Comment écrire une instruction conditionnelle
 
-- Use the keyword `if` to start the conditional statement
-- Place the condition that you want to check inside brackets `()`
-- Add code inside the curly braces `{}` that will execute if the condition is true
+- Utilise le mot clé `if` pour démarrer l'instruction conditionnelle
+- Place la condition que tu souhaites vérifier entre parenthèses `()`
+- Ajoute à l'intérieur des accolades `{}` le code qui s'exécutera si la condition est vraie
 
 ## --- code ---
 
@@ -78,7 +78,9 @@ line_numbers: true
 var age = 18;
 
 if (age >= 18) {
-console.log("You are an adult.");
+console.log("Tu es un adulte.");
 }
 
 \--- /code ---
+
+
