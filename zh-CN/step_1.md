@@ -1,11 +1,11 @@
-In JavaScript, conditional statements are used to make decisions in your code based on conditions. Conditions are checked to see if they are true and code is executed based on the result of the checks.
+在 JavaScript 中，条件语句用于根据条件在代码中做出决策。 检查条件是否为真，并根据检查结果执行代码。
 
-There are three types of conditional statements in JavaScript:
-`if`, `else if`, `else`.
+JavaScript 中有三种类型的条件语句：
+`if`、`else if`、`else`。
 
 ### if
 
-`if` is used to execute a block of code **if** a specified condition is met (true).
+`if` 用于在满足指定条件（真）的情况下执行代码块。
 
 ## --- code ---
 
@@ -15,16 +15,16 @@ line_numbers: true
 -------------------------------------------------------
 
 if (condition) {
-// Code to be executed if the condition is true
+// 如果条件为真则执行代码
 }
 
 \--- /code ---
 
 ### else if
 
-`else if` is used to check multiple conditions. It runs different blocks of code based on the results of the checks.
+`else if` 用于检查多个条件。 它根据检查结果运行不同的代码块。
 
-When an `else if` condition is met, no checks are made on subsequent `else if` (or `else`) blocks.
+当满足 `else if` 条件时，不会对后续的 `else if`（或 `else`）块进行检查。
 
 ## --- code ---
 
@@ -34,16 +34,16 @@ line_numbers: true
 -------------------------------------------------------
 
 if (condition1) {
-// Code to be executed if condition1 is true
+// 如果 condition1 为真则执行的代码
 } else if (condition2) {
-// Code to be executed if condition2 is true
+// 如果 condition2 为真则执行的代码
 }
 
 \--- /code ---
 
 ### else
 
-`else` sets an alternative block of code that is executed if the previous (`if` and/or `else if`) conditions are not met (false).
+`else` 设置一个替代代码块，如果前面的（`if` 和/或 `else if`）条件不满足（false）则执行该代码块。
 
 ## --- code ---
 
@@ -53,20 +53,20 @@ line_numbers: true
 -------------------------------------------------------
 
 if (condition1) {
-// Code to be executed if condition1 is true
+// 如果 condition1 为真，则执行的代码
 } else if (condition2) {
-// Code to be executed if condition2 is true
+// 如果 condition2 为真，则执行的代码
 } else {
-// Code to be executed if none of the conditions are true
+// 如果所有条件都不为真，则执行的代码
 }
 
 \--- /code ---
 
-### How to write a conditional statement
+### 如何编写条件语句
 
-- Use the keyword `if` to start the conditional statement
-- Place the condition that you want to check inside brackets `()`
-- Add code inside the curly braces `{}` that will execute if the condition is true
+- 使用关键字 `if` 来启动条件语句
+- 将要检查的条件放在括号 `()` 内
+- 在花括号 `{}` 内添加代码，当条件为真时执行
 
 ## --- code ---
 
@@ -78,7 +78,7 @@ line_numbers: true
 var age = 18;
 
 if (age >= 18) {
-console.log("You are an adult.");
+console.log("你已成年。");
 }
 
 \--- /code ---
